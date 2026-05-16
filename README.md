@@ -10,7 +10,7 @@ you can try them on every software still works
 to view when you're done. you can try: `cd repository_name
 ls`
 # how to setup (PC):
-- pkg install git
+- winget install Git.Git
 - git clone [GitHub Link]
 - cd Downloads
 - cd repository_name
@@ -19,8 +19,11 @@ if you're having trouble previewing the Inf.js Deployment Links
 you can try installing python
 or try those following commands:
 winget install Python.Python.3.13
+
 cd Downloads\repository_name
+
 python -m http.server 8080
- then you could look at the website!
+
+then you could look at the website!
 
 `commit-codes 2025. all Licenses. items. everything. goes to their respective owners. we owe every item.`
