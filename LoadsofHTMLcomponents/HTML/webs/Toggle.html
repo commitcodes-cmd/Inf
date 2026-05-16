@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Styling the "box" */
+  #myBox {
+    width: 2px;
+    height: 2px;
+    background-color: white; /* Initial color */
+    border: 2px solid black;
+    margin-bottom: 2px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- The box element -->
+  <div id="myBox"></div>
+  <!-- The button that triggers the change -->
+  <button onclick="toggleColor()">Toggle the Light processes from the chip</button>
+
+  <script>
+    function toggleColor() {
+      var box = document.getElementById("myBox");
+      
+      // Check the current color and switch it
+      if (box.style.backgroundColor === "red") {
+        box.style.backgroundColor = "white";
+      } else {
+        box.style.backgroundColor = "red";
+      }
+    }
+  </script>
+
+</body>
+</html>
