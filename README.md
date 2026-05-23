@@ -1,3 +1,7 @@
+this project is now archived. it will not return until we change our mind. sad right? no bcz I'm a lazy GitHub user
+
+
+
 # Inf.js
 inf.js is a Repo with loads of JS testing files
 you can try them on every software still works
